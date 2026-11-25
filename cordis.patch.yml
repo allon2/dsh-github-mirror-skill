@@ -1,0 +1,6 @@
+# GitHub 镜像加速技能
+# 注册 @allon2/dsh-github-mirror-skill 为 skill provider 插件,与 Claude Code
+# 社区的 GitHub 加速 skill(基于 hunshcn/gh-proxy 的镜像改写规则)等价。
+- insert:
+    - id: github-mirror-skill
+      name: '@allon2/dsh-github-mirror-skill'

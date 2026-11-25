@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GitHub mirror accelerator">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#0d1117"/>
+  <path d="M46 16a19 19 0 0 1 0 32" fill="none" stroke="#3fb950" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 24a11 11 0 0 1 0 16" fill="none" stroke="#3fb950" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <path d="M30 10 14 35h10l-4 19 20-25H28l6-19z" fill="#58a6ff"/>
+</svg>

@@ -1,0 +1,37 @@
+{
+  "name": "@allon2/dsh-github-mirror-skill",
+  "version": "1.0.0",
+  "description": "GitHub 镜像加速:为 Agent 提供 gh-proxy 兼容的 release/archive/raw/gist 下载与 git clone 镜像改写技能,直连慢或超时自动探测、验证、回退。",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "assets",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allon2/dsh-github-mirror-skill.git"
+  },
+  "engines": {
+    "dsh": ">=0.2.2-rc.0"
+  },
+  "icon": "./icon.svg",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

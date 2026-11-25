@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "GitHub 镜像加速",
+    "description": "让 Agent 在 GitHub 直连慢或超时时,按 gh-proxy 兼容规则把 release/archive/raw/gist 下载与 git clone 改写到可用镜像,自动探测、验证、回退。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

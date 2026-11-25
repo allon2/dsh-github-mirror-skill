@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "GitHub mirror accelerator",
+    "description": "Teaches the agent to rewrite GitHub release, archive, raw, gist, and git-clone URLs through gh-proxy-compatible mirrors when direct access is slow or times out, with probe-validate-fallback workflows.",
+    "detail": "docs/DETAIL.md"
+  }
+}
