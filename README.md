@@ -6,7 +6,9 @@ DeepSeek Harness 插件:GitHub 镜像加速技能。移植自 Claude Code 社区
 
 ## 安装
 
-在 DSH 会话里对插件目录执行 `plugin_manager` 的 `install_bundle`;或在 Web 界面 **插件 → 添加插件** 选择本目录。
+在 DSH 会话里对插件目录执行 `plugin_manager` 的 `install_bundle`;或在 Web 界面 **插件 → 添加插件** 选择本目录,也可以直接使用本仓库地址。
+
+**是否需要重启:需要。** 安装完成后重启 DeepSeek Harness 才会加载本插件(首次安装会返回 `restart-required`);重启后**新开会话**,`github-mirror-accelerator` 才会出现在技能列表,已开启的会话不会加载。升级或更换插件版本同理,同样需要重启才能加载新模块。
 
 ## 结构
 

@@ -22,6 +22,11 @@ The skill probes mirrors in order and picks the fastest one that returns 2xx:
 
 Mirrors are third-party public services and break frequently; the skill reports when all fail and suggests self-hosting gh-proxy. The skill never mutates global git configuration or proxy settings unless explicitly asked.
 
+## Install and activation
+
+- Install via the plugin manager (`install_bundle` in a session, or **Plugins → Add plugin**; the repository URL works too).
+- Restart required: **yes**. DSH loads this plugin after a restart; open a new session afterwards so the skill appears in the skill list. Upgrading the plugin also requires a restart.
+
 ## Scope
 
 - Skill name: `github-mirror-accelerator` (model- and user-invocable)
